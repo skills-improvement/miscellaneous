@@ -1,0 +1,14 @@
+FROM alpine:3.17
+
+ENV BASE_PACKAGES \
+  procps \
+  iproute2 \
+  vim \
+  openssh-client \
+  tar \
+  curl \
+  bash \
+  git \
+  ca-certificates
+
+RUN apk add --no-cache ${BASE_PACKAGES}
