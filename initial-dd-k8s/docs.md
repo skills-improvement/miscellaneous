@@ -19,3 +19,6 @@ After installing Docker Desktop,
 3. Create some base Namespaces for K8s
   - `kubectl create namespace <development/staging/production/gitlab/argocd/...>`
   - Source control a set of Namespace templates
+4. Create a set of basic administrative Dockerfiles for Ansible and other tooling
+  - Simple Dockerfile with VIM and other tools
+  - Simple Dockerfile with above plus Ansible
